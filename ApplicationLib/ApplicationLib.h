@@ -9,5 +9,16 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <string>
 
+class ApplicationLib
+{
+	std::string libName;
+
+public:
+	ApplicationLib();
+
+	std::string GetLibName();
+
+};
 #endif //APPLICATIONLIB_H

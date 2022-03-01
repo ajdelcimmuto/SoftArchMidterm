@@ -9,5 +9,15 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <string>
+
+class Course
+{
+	std::string libName;
+
+public:
+	Course();
+	std::string GetLibName();
+};
 
 #endif //COURSE_H

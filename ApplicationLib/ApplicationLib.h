@@ -4,10 +4,10 @@
 // However, files listed here are ALL re-compiled if any one of them is updated between builds.
 // Do not add files here that you will be updating frequently as this negates the performance advantage.
 
-#ifndef DATABASE_H
-#define DATABASE_H
+#ifndef APPLICATIONLIB_H
+#define APPLICATIONLIB_H
 
 // add headers that you want to pre-compile here
 #include "framework.h"
 
-#endif //DATABASE_H
+#endif //APPLICATIONLIB_H

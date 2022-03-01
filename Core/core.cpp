@@ -2,27 +2,24 @@
 
 #include "Core.h"
 
-Core::Core() {
-
-}
 
 // Quit[1], Login[2], Assignment[3], Course[4], UserInformation[5]
-void Core::performAction(int choice) {
+CORE_API void performAction(int choice) {
+
 	switch (choice)
 	{
 	case 2:
-		Assignment a = Assignment();
-		std::cout << a.GetLibName();
+		std::cout << GetLoginName() << std::endl << std::endl;
 		break;
 	case 3:
-		Login l = Login();
-		std::cout << l.GetLibName();
+		std::cout << GetAssignmentName() << std::endl << std::endl;
+		break;
 	case 4:
-		Course c = Course();
-		std::cout << c.GetLibName();
+		std::cout << GetCourseName() << std::endl << std::endl;
+		break;
 	case 5:
-		UserInformation u = UserInformation();
-		std::cout << u.GetLibName();
+		std::cout << GetUserInformationName() << std::endl << std::endl;
+		break;
 	default:
 		break;
 	}

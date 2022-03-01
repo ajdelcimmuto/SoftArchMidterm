@@ -2,13 +2,11 @@
 //
 
 #include <iostream>
-#include "../Assignment/Assignment.h"
-#include "../Core/Core.h"
+#include "../UserInterface/UserInterface.h"
 
 int main()
 {
-    
-    std::cout << "Hello World!\n";
+    useApp();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

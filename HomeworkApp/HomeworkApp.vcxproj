@@ -141,6 +141,11 @@
   <ItemGroup>
     <ClCompile Include="HomeworkApp.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserInterface\UserInterface.vcxproj">
+      <Project>{9f556e0e-14e3-4743-8946-4792d073b62b}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

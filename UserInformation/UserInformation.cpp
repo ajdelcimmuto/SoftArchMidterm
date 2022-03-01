@@ -2,10 +2,6 @@
 
 #include "UserInformation.h"
 
-UserInformation::UserInformation() {
-	libName = "UserInformation";
-}
-
-std::string UserInformation::GetLibName() {
-	return libName;
+USERINFORMATION_API std::string GetUserInformationName() {
+	return "UserInformation";
 }

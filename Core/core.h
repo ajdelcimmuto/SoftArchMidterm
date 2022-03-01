@@ -4,6 +4,12 @@
 // However, files listed here are ALL re-compiled if any one of them is updated between builds.
 // Do not add files here that you will be updating frequently as this negates the performance advantage.
 
+#ifdef CORE_EXPORTS
+#define CORE_API __declspec(dllexport)
+#else
+#define CORE_API __declspec(dllimport)
+#endif
+
 #ifndef CORE_H
 #define CORE_H
 
@@ -15,10 +21,6 @@
 #include "../Login/Login.h"
 #include "../UserInformation/UserInformation.h"
 
-class Core {
-public:
-	Core();
-	void performAction(int choice);
-};
+CORE_API void performAction(int choice);
 
 #endif //CORE_H

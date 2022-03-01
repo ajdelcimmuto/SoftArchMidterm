@@ -4,6 +4,12 @@
 // However, files listed here are ALL re-compiled if any one of them is updated between builds.
 // Do not add files here that you will be updating frequently as this negates the performance advantage.
 
+#ifdef COURSE_EXPORTS
+#define COURSE_API __declspec(dllexport)
+#else
+#define COURSE_API __declspec(dllimport)
+#endif
+
 #ifndef COURSE_H
 #define COURSE_H
 
@@ -11,13 +17,6 @@
 #include "framework.h"
 #include <string>
 
-class Course
-{
-	std::string libName;
-
-public:
-	Course();
-	std::string GetLibName();
-};
+COURSE_API std::string GetCourseName();
 
 #endif //COURSE_H

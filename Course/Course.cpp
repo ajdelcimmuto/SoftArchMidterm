@@ -3,7 +3,4 @@
 #include "Course.h"
 
 // When you are using pre-compiled headers, this source file is necessary for compilation to succeed.
-Course::Course() {
-	libName = "ApplicationLib";
-}
-std::string Course::GetLibName() { return libName; }
+COURSE_API std::string GetCourseName() { return "Course"; }

@@ -1,17 +1,13 @@
 #pragma once
 
+#ifdef ASSIGNMENT_EXPORTS
+#define ASSIGNMENT_API __declspec(dllexport)
+#else
+#define ASSIGNMENT_API __declspec(dllimport)
+#endif
+
 #include <string>
 #include "framework.h"
 
-class Assignment
-{
-	std::string libName;
-
-public:
-
-	Assignment();
-
-	std::string GetLibName();
-
-};
+ASSIGNMENT_API std::string GetAssignmentName();
 

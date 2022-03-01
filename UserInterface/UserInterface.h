@@ -4,6 +4,12 @@
 // However, files listed here are ALL re-compiled if any one of them is updated between builds.
 // Do not add files here that you will be updating frequently as this negates the performance advantage.
 
+#ifdef USERINTERFACE_EXPORTS
+#define USERINTERFACE_API __declspec(dllexport)
+#else
+#define USERINTERFACE_API __declspec(dllimport)
+#endif
+
 #ifndef USERINTERFACE_H
 #define USERINTERFACE_H
 
@@ -11,13 +17,7 @@
 #include "framework.h"
 #include "../Core/Core.h"
 #include <string>
-class UserInterface
-{
-	bool quit;
 
-public:
-	UserInterface();
-	void useApp();
-};
+USERINTERFACE_API void useApp();
 
 #endif //USERINTERFACE_H

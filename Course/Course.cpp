@@ -6,4 +6,4 @@
 Course::Course() {
 	libName = "ApplicationLib";
 }
-std::string Course::getCourseLibName() { return libName; }
+std::string Course::GetLibName() { return libName; }

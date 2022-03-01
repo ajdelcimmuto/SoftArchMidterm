@@ -4,4 +4,4 @@ Assignment::Assignment() {
 	libName = "Assignment";
 }
 
-std::string Assignment::getAssignmentLibName() { return libName; }
+std::string Assignment::GetLibName() { return libName; }

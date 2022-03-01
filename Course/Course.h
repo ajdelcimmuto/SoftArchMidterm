@@ -17,7 +17,7 @@ class Course
 
 public:
 	Course();
-	std::string getCourseLibName();
+	std::string GetLibName();
 };
 
 #endif //COURSE_H

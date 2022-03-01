@@ -11,7 +11,7 @@ public:
 
 	Assignment();
 
-	std::string getAssignmentLibName();
+	std::string GetLibName();
 
 };
 

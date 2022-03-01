@@ -6,4 +6,4 @@
 ApplicationLib::ApplicationLib() {
 	libName = "ApplicationLib";
 }
-std::string ApplicationLib::getApplicationLibName() { return libName; }
+std::string ApplicationLib::GetLibName() { return libName; }

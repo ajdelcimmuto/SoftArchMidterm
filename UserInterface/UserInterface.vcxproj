@@ -159,8 +159,8 @@
     <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.vcxproj">
-      <Project>{35e32e09-d123-4d66-a713-0475759c070b}</Project>
+    <ProjectReference Include="..\ApplicationLib\ApplicationLib.vcxproj">
+      <Project>{e53fd047-e376-4a95-99d3-6301bd1c8721}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

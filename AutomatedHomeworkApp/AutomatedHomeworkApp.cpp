@@ -3,14 +3,17 @@
 
 #include <iostream>
 #include "../Core/Core.h"
+#include "../ApplicationLib/ApplicationLib.h"
 
 int main()
 {
     std::cout << "Automated Homework App\n" << std::endl;
+    initApplication();
     performAction(2);
     performAction(3);
     performAction(4);
     performAction(5);
+    closeApplication();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -163,20 +163,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Assignment\Assignment.vcxproj">
-      <Project>{1d7f7e87-bca5-4579-acd1-d552e6f57919}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Course\Course.vcxproj">
-      <Project>{292bc56b-f927-4c69-b25d-dc58f50dcb04}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Login\Login.vcxproj">
-      <Project>{c3da3459-0d1d-46c0-97b3-9d13801d417c}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\UserInformation\UserInformation.vcxproj">
-      <Project>{0935b24e-266d-4784-aaa6-928b5239f542}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

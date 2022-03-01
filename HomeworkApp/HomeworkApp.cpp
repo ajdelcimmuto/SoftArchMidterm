@@ -2,11 +2,14 @@
 //
 
 #include <iostream>
+#include "../Core/Core.h"
 #include "../UserInterface/UserInterface.h"
 
 int main()
 {
+    initApplication();
     useApp();
+    closeApplication();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

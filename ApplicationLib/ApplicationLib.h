@@ -11,3 +11,17 @@
 #include "framework.h"
 
 #endif //APPLICATIONLIB_H
+
+
+#include <string>
+
+class ApplicationLib
+{
+	std::string libName;
+
+public:
+	ApplicationLib();
+
+	std::string getApplicationLibName();
+
+};

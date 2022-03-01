@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserInterface", "UserInterface\UserInterface.vcxproj", "{9F556E0E-14E3-4743-8946-4792D073B62B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{35E32E09-D123-4D66-A713-0475759C070B} = {35E32E09-D123-4D66-A713-0475759C070B}
-		{E089B6AC-90DA-4952-B0E6-8D4C89A42419} = {E089B6AC-90DA-4952-B0E6-8D4C89A42419}
+		{E53FD047-E376-4A95-99D3-6301BD1C8721} = {E53FD047-E376-4A95-99D3-6301BD1C8721}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{35E32E09-D123-4D66-A713-0475759C070B}"
@@ -20,8 +20,15 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment", "Assignment\Assignment.vcxproj", "{1D7F7E87-BCA5-4579-ACD1-D552E6F57919}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeworkApp", "HomeworkApp\HomeworkApp.vcxproj", "{E089B6AC-90DA-4952-B0E6-8D4C89A42419}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35E32E09-D123-4D66-A713-0475759C070B} = {35E32E09-D123-4D66-A713-0475759C070B}
+		{9F556E0E-14E3-4743-8946-4792D073B62B} = {9F556E0E-14E3-4743-8946-4792D073B62B}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApplicationLib", "ApplicationLib\ApplicationLib.vcxproj", "{E53FD047-E376-4A95-99D3-6301BD1C8721}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35E32E09-D123-4D66-A713-0475759C070B} = {35E32E09-D123-4D66-A713-0475759C070B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

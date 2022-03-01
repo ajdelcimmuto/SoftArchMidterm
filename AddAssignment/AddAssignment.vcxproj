@@ -24,6 +24,7 @@
     <ProjectGuid>{aecd23d3-dacb-4f5f-9afd-415789f396df}</ProjectGuid>
     <RootNamespace>AddAssignment</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Assignment</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -150,11 +151,11 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddAssignment.h" />
+    <ClInclude Include="Assignment.h" />
     <ClInclude Include="framework.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AddAssignment.cpp" />
+    <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

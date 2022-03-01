@@ -10,6 +10,10 @@
 #define USERINTERFACE_API __declspec(dllimport)
 #endif
 
+
+#include "framework.h"
+
+
 // This class is exported from the dll
 class USERINTERFACE_API CUserInterface {
 public:

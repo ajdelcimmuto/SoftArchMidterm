@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include "framework.h"
 
 class Assignment
 {

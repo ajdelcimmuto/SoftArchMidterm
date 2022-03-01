@@ -1,26 +1,23 @@
-#include "HomeworkApp.h"
+// HomeworkApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
 #include <iostream>
+#include "../Assignment/Assignment.h"
+#include "../Core/Core.h"
 
-HomeworkApp::HomeworkApp(Assignment a) {
-	assignment = a;
-}
-
-void HomeworkApp::addAssignment(int assignmentNumber, std::string dueDate, std::string course) {
-	assignment.SetAll(assignmentNumber, dueDate, course);
-	agendaVect.push_back(assignment);
-}
-void HomeworkApp::printAssignments() {
-	for (int i = 0; i < agendaVect.size(); i++) {
-		std::cout << agendaVect[i].GetDueDate() << " - " << agendaVect[i].GetCourse() << ", " << agendaVect[i].GetAssignmentNumber() << std::endl;
-	}
-}
-int HomeworkApp::getAssignmentCount() {
-	return agendaVect.size();
+int main()
+{
+    
+    std::cout << "Hello World!\n";
 }
 
-Assignment HomeworkApp::removeOldestAssignment() {
-	Assignment poppedAssignment = agendaVect[0];
-	agendaVect.erase(agendaVect.begin());
-	return poppedAssignment;
-}
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
 
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the Output window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

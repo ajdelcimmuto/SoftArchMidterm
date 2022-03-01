@@ -2,4 +2,10 @@
 
 #include "UserInformation.h"
 
-// When you are using pre-compiled headers, this source file is necessary for compilation to succeed.
+UserInformation::UserInformation() {
+	libName = "UserInformation";
+}
+
+std::string UserInformation::GetLibName() {
+	return libName;
+}

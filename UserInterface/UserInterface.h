@@ -1,26 +1,23 @@
-// The following ifdef block is the standard way of creating macros which make exporting
-// from a DLL simpler. All files within this DLL are compiled with the USERINTERFACE_EXPORTS
-// symbol defined on the command line. This symbol should not be defined on any project
-// that uses this DLL. This way any other project whose source files include this file see
-// USERINTERFACE_API functions as being imported from a DLL, whereas this DLL sees symbols
-// defined with this macro as being exported.
-#ifdef USERINTERFACE_EXPORTS
-#define USERINTERFACE_API __declspec(dllexport)
-#else
-#define USERINTERFACE_API __declspec(dllimport)
-#endif
+// pch.h: This is a precompiled header file.
+// Files listed below are compiled only once, improving build performance for future builds.
+// This also affects IntelliSense performance, including code completion and many code browsing features.
+// However, files listed here are ALL re-compiled if any one of them is updated between builds.
+// Do not add files here that you will be updating frequently as this negates the performance advantage.
 
+#ifndef USERINTERFACE_H
+#define USERINTERFACE_H
 
+// add headers that you want to pre-compile here
 #include "framework.h"
+#include "../Core/Core.h"
+#include <string>
+class UserInterface
+{
+	bool quit;
 
-
-// This class is exported from the dll
-class USERINTERFACE_API CUserInterface {
 public:
-	CUserInterface(void);
-	// TODO: add your methods here.
+	UserInterface();
+	void useApp();
 };
 
-extern USERINTERFACE_API int nUserInterface;
-
-USERINTERFACE_API int fnUserInterface(void);
+#endif //USERINTERFACE_H

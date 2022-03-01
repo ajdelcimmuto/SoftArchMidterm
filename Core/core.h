@@ -9,5 +9,16 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <iostream>
+#include "../Assignment/Assignment.h"
+#include "../Course/Course.h"
+#include "../Login/Login.h"
+#include "../UserInformation/UserInformation.h"
+
+class Core {
+public:
+	Core();
+	void performAction(int choice);
+};
 
 #endif //CORE_H

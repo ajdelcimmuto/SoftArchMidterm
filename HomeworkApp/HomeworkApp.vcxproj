@@ -142,9 +142,6 @@
     <ClCompile Include="HomeworkApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AddAssignment\AddAssignment.vcxproj">
-      <Project>{aecd23d3-dacb-4f5f-9afd-415789f396df}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\Core\Core.vcxproj">
       <Project>{35e32e09-d123-4d66-a713-0475759c070b}</Project>
     </ProjectReference>

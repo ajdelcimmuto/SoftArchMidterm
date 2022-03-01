@@ -9,5 +9,13 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <string>
+class Login
+{
+	std::string libName;
+public:
+	Login();
+	std::string GetLibName();
+};
 
 #endif //LOGIN_H

@@ -9,5 +9,14 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <string>
+class UserInformation
+{
+	std::string libName;
+public:
+	UserInformation();
+	std::string GetLibName();
+
+};
 
 #endif //USERINFORMATION_H

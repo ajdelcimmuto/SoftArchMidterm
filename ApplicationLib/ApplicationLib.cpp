@@ -17,8 +17,8 @@ APPLICATIONLIB_API void performAction(int choice) {
 	gen.add_messages_domain("hello");
 
 	// Generate locales and imbue them to iostream
-	//locale::global(gen("de_DE.UTF - 8"));
-	locale::global(gen(""));
+	locale::global(gen("de_DE.UTF - 8"));
+	//locale::global(gen(""));
 
 	cout.imbue(locale());
 	const string context = "test";

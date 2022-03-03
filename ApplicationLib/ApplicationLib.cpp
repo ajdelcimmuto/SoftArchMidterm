@@ -21,20 +21,21 @@ APPLICATIONLIB_API void performAction(int choice) {
 	//locale::global(gen(""));
 
 	cout.imbue(locale());
-	
+	const string context = "test";
+
 	switch (choice)
 	{
 	case 2:
-		cout << translate(GetLoginName()) << endl << endl;
+		cout << translate(context, GetLoginName()) << endl << endl;
 		break;
 	case 3:
-		cout << translate(GetAssignmentName()) << endl << endl;
+		cout << translate(context, GetAssignmentName()) << endl << endl;
 		break;
 	case 4:
-		cout << translate(GetCourseName()) << endl << endl;
+		cout << translate(context, GetCourseName()) << endl << endl;
 		break;
 	case 5:
-		cout << translate(GetUserInformationName()) << endl << endl;
+		cout << translate(context, GetUserInformationName()) << endl << endl;
 		break;
 	default:
 		break;

@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ApplicationLib.cpp:24
-msgid "Hello World"
-msgstr "Hallo Welt"
-
-#: ApplicationLib.cpp:28
+#: ApplicationLib.cpp:30
+msgctxt "test"
 msgid "Login"
 msgstr "German login"
 
-#: ApplicationLib.cpp:31
+#: ApplicationLib.cpp:33
+msgctxt "test"
 msgid "Assignment"
 msgstr "German Assignment"
 
-#: ApplicationLib.cpp:34
+#: ApplicationLib.cpp:36
+msgctxt "test"
 msgid "Course"
 msgstr "German Course"
 
-#: ApplicationLib.cpp:37
+#: ApplicationLib.cpp:39
+msgctxt "test"
 msgid "UserInformation"
 msgstr "German UserInformation"

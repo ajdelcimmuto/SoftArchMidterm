@@ -5,8 +5,17 @@
   - Localization: 3 hours
   - Digital signature 1 hour
 * Description
-  - HomeworkApp is a very simple project that contains several libraries that return a string containing the name of that library. This project is meant to demonstrate several of the topics we have covered in Software Architecture, such as libraries, localization, and digital signatures.
+  - HomeworkApp is a very simple project that contains several libraries that return a string containing the name of that library. This project is meant to demonstrate several of the topics we have covered in Software Architecture, such as libraries, localization, and digital signatures. Our project has two executables. One is called HomeworkApp.exe, and the other is called AutomatedHomeworkApp.exe. HomeworkApp.exe is an interactable program whereas AutomatedHomeworkApp.exe simply prints everything you need and is not interactable.
+ 
+* AutomatedHomeworkApp.exe
+
+  ![image](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppDemo.PNG?raw=true)
+* HomeworkApp.exe
+
+  ![image](https://user-images.githubusercontent.com/28656360/156645718-f09f9223-46a4-473b-b891-e532f226e849.png)
 * Boost
+- Here is an example of how we use boost. As you can see we pass in a given context "test" and we are properly returned the translations for each string.
+- ![image](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/boostUsage.PNG?raw=true)
 * Digital signing
 - ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppSignature.PNG?raw=true)
 - ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/HomeworkAppSignature.PNG?raw=true)

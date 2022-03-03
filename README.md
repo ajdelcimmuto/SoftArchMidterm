@@ -1,13 +1,15 @@
 # SoftArchMidterm
 
-1. Estimations
-2. Description
-3. Scafolding
-4. Boost
-5. Digital signing
-
-* ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppSignature.PNG?raw=true)
-* ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/HomeworkAppSignature.PNG?raw=true)
+* Estimations
+  - Scafolding 3 hours
+  - Localization: 3 hours
+  - Digital signature 1 hour
+* Description
+  - HomeworkApp is a very simple project that contains several libraries that return a string containing the name of that library. This project is meant to demonstrate several of the topics we have covered in Software Architecture, such as libraries, localization, and digital signatures.
+* Boost
+* Digital signing
+- ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppSignature.PNG?raw=true)
+- ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/HomeworkAppSignature.PNG?raw=true)
 
 
 

@@ -12,31 +12,31 @@ APPLICATIONLIB_API void performAction(int choice) {
 	generator gen;
 
 	// Specify location of dictionaries
-	gen.add_messages_path(".");
+	// TODO: CHANGE THIS PATH TO YOUR LOCAL MACHINE!!!!!!!!!!
+	gen.add_messages_path("C:\\Users\\ajdel\\Downloads\\HomeworkApp\\ApplicationLib");
 	gen.add_messages_domain("hello");
 
 	// Generate locales and imbue them to iostream
 	locale::global(gen("de_DE.UTF - 8"));
-	// locale::global(gen(""));
+	//locale::global(gen(""));
 
 	cout.imbue(locale());
 	
-	cout << translate("Hello World") << endl;
-	//switch (choice)
-	//{
-	//case 2:
-	//	cout << translate(GetLoginName()) << endl << endl;
-	//	break;
-	//case 3:
-	//	cout << translate(GetAssignmentName()) << endl << endl;
-	//	break;
-	//case 4:
-	//	cout << translate(GetCourseName()) << endl << endl;
-	//	break;
-	//case 5:
-	//	cout << translate(GetUserInformationName()) << endl << endl;
-	//	break;
-	//default:
-	//	break;
-	//}
+	switch (choice)
+	{
+	case 2:
+		cout << translate(GetLoginName()) << endl << endl;
+		break;
+	case 3:
+		cout << translate(GetAssignmentName()) << endl << endl;
+		break;
+	case 4:
+		cout << translate(GetCourseName()) << endl << endl;
+		break;
+	case 5:
+		cout << translate(GetUserInformationName()) << endl << endl;
+		break;
+	default:
+		break;
+	}
 };

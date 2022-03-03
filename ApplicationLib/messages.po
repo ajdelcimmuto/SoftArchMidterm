@@ -19,4 +19,20 @@ msgstr ""
 
 #: ApplicationLib.cpp:24
 msgid "Hello World"
-msgstr "test"
+msgstr "Hallo Welt"
+
+#: ApplicationLib.cpp:28
+msgid "Login"
+msgstr "German login"
+
+#: ApplicationLib.cpp:31
+msgid "Assignment"
+msgstr "German Assignment"
+
+#: ApplicationLib.cpp:34
+msgid "Course"
+msgstr "German Course"
+
+#: ApplicationLib.cpp:37
+msgid "UserInformation"
+msgstr "German UserInformation"

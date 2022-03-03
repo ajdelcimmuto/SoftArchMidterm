@@ -14,8 +14,10 @@
 
   ![image](https://user-images.githubusercontent.com/28656360/156645718-f09f9223-46a4-473b-b891-e532f226e849.png)
 * Boost
-- Here is an example of how we use boost. As you can see we pass in a given context "test" and we are properly returned the translations for each string.
+- Here is an example of how we use boost. As you can see we pass in a given context "test" and we are properly returned the translations for each string. This can be seen by the above demo. Also, if we comment out the global gen local and uncomment the default local, we also get the proper translations. Example is below.
 - ![image](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/boostUsage.PNG?raw=true)
+- Proper translation for default boost local: ![image](https://user-images.githubusercontent.com/28656360/156646595-5c91c5c0-1b62-4c9a-9455-cfe17ed65ae6.png)
+
 * Digital signing
 - ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppSignature.PNG?raw=true)
 - ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/HomeworkAppSignature.PNG?raw=true)

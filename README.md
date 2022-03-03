@@ -6,6 +6,9 @@
 4. Boost
 5. Digital signing
 
+* ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/AutomatedHomeworkAppSignature.PNG?raw=true)
+* ![Alt text](https://github.com/ajdelcimmuto/SoftArchMidterm/blob/master/HomeworkAppSignature.PNG?raw=true)
+
 
 
 

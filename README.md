@@ -1,11 +1,17 @@
 # SoftArchMidterm
 
 ### Estimations:
-  - Scaffolding 3 hours
+  - Scaffolding: 3 hours
   - Localization: 3 hours
-  - Digital signature 1 hour
+  - Digital signature: 1 hour
+
+### Actual Time Spent:
+  - Scaffolding: 3 hours, we were pretty accurate with this estimate and it took about as long as expected. Maybe a little less time, but pretty close.
+  - Localization: 2 hours, this took a little less time than expected. It definitely helped that we already hasd all the tools downloaded and installed, and the majority of our time was spent troubleshooting.
+  - Digital Signature: 30 minutes, we didn't expect this to take too long, and it went even faster than expected. Again I think it helped that we had recently done this for our homework, so we were prepared.  
+
 ### Description
-  - HomeworkApp is a very simple project that contains several libraries that return a string containing the name of that library. This project is meant to demonstrate several of the topics we have covered in Software Architecture, such as libraries, localization, and digital signatures. Our project has two executables. One is called HomeworkApp.exe, and the other is called AutomatedHomeworkApp.exe. HomeworkApp.exe is an interactable program whereas AutomatedHomeworkApp.exe simply prints everything you need and is not interactable.
+  - HomeworkApp is a very simple project that contains several libraries that return a string containing the name of that library. This project is meant to demonstrate several of the topics we have covered in Software Architecture, such as libraries, localization, and digital signatures. Our project has two executables. One is called HomeworkApp.exe, and the other is called AutomatedHomeworkApp.exe. HomeworkApp.exe is an interactable program whereas AutomatedHomeworkApp.exe simply prints everything you need and is not interactable. If this app were to become real, it would be used to keep track of your homework assignments, the deadlines, which course they were for, 
  
 ### AutomatedHomeworkApp.exe
 
